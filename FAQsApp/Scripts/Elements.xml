@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.min.map" Url="Scripts/jquery-1.10.2.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.min.js" Url="Scripts/jquery-1.10.2.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.js" Url="Scripts/jquery-1.10.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.intellisense.js" Url="Scripts/jquery-1.10.2.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\FAQsAppCtrl.js" Url="Scripts/FAQsAppCtrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.fancybox.pack.js" Url="Scripts/jquery.fancybox.pack.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\main.js" Url="Scripts/main.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\masonry.pkgd.min.js" Url="Scripts/masonry.pkgd.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\raphael.min.js" Url="Scripts/raphael.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\settings.js" Url="Scripts/settings.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

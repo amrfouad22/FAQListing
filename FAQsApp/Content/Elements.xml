@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\buttons\buttons.css" Url="Content/buttons/buttons.css" ReplaceContent="TRUE" />
+    <File Path="Content\buttons\social-icons-codes.css" Url="Content/buttons/social-icons-codes.css" ReplaceContent="TRUE" />
+    <File Path="Content\buttons\social-icons-embedded.css" Url="Content/buttons/social-icons-embedded.css" ReplaceContent="TRUE" />
+    <File Path="Content\buttons\social-icons-ie7-codes.css" Url="Content/buttons/social-icons-ie7-codes.css" ReplaceContent="TRUE" />
+    <File Path="Content\buttons\social-icons-ie7.css" Url="Content/buttons/social-icons-ie7.css" ReplaceContent="TRUE" />
+    <File Path="Content\buttons\social-icons.css" Url="Content/buttons/social-icons.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\elements-pages-customizer.css" Url="Content/customizer/elements-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\home-pages-customizer.css" Url="Content/customizer/home-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\pages-pages-customizer.css" Url="Content/customizer/pages-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\pages.css" Url="Content/customizer/pages.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\shop-2-pages-customizer.css" Url="Content/customizer/shop-2-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\shop-5-pages-customizer.css" Url="Content/customizer/shop-5-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\shop-6-pages-customizer.css" Url="Content/customizer/shop-6-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\shop-8-pages-customizer.css" Url="Content/customizer/shop-8-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\customizer\shop-pages-customizer.css" Url="Content/customizer/shop-pages-customizer.css" ReplaceContent="TRUE" />
+    <File Path="Content\ie\ie.css" Url="Content/ie/ie.css" ReplaceContent="TRUE" />
+    <File Path="Content\ie\ie8.css" Url="Content/ie/ie8.css" ReplaceContent="TRUE" />
+    <File Path="Content\animate.css" Url="Content/animate.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome.min.css" Url="Content/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\jquery.fancybox.css" Url="Content/jquery.fancybox.css" ReplaceContent="TRUE" />
+    <File Path="Content\responsive.css" Url="Content/responsive.css" ReplaceContent="TRUE" />
+    <File Path="Content\settings.css" Url="Content/settings.css" ReplaceContent="TRUE" />
+    <File Path="Content\style.css" Url="Content/style.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

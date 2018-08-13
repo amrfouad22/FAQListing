@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="fonts\" Type="ElementManifest" />
+    <ProjectItemFile Source="fontawesome-webfont.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fontawesome-webfont.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fontawesome-webfont.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fontawesome-webfont.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="FontAwesome.otf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="revicons.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="revicons.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="revicons.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="revicons.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="social-icons.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="social-icons.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="social-icons.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="social-icons.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="vjs.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="vjs.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="vjs.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="vjs.woff" Target="fonts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

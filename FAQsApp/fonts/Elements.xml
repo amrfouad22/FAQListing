@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="fonts">
+    <File Path="fonts\fontawesome-webfont.eot" Url="fonts/fontawesome-webfont.eot" />
+    <File Path="fonts\fontawesome-webfont.svg" Url="fonts/fontawesome-webfont.svg" />
+    <File Path="fonts\fontawesome-webfont.ttf" Url="fonts/fontawesome-webfont.ttf" />
+    <File Path="fonts\fontawesome-webfont.woff" Url="fonts/fontawesome-webfont.woff" />
+    <File Path="fonts\FontAwesome.otf" Url="fonts/FontAwesome.otf" />
+    <File Path="fonts\glyphicons-halflings-regular.eot" Url="fonts/glyphicons-halflings-regular.eot" />
+    <File Path="fonts\glyphicons-halflings-regular.svg" Url="fonts/glyphicons-halflings-regular.svg" />
+    <File Path="fonts\glyphicons-halflings-regular.woff" Url="fonts/glyphicons-halflings-regular.woff" />
+    <File Path="fonts\glyphicons-halflings-regular.ttf" Url="fonts/glyphicons-halflings-regular.ttf" />
+    <File Path="fonts\revicons.eot" Url="fonts/revicons.eot" />
+    <File Path="fonts\revicons.svg" Url="fonts/revicons.svg" />
+    <File Path="fonts\revicons.ttf" Url="fonts/revicons.ttf" />
+    <File Path="fonts\revicons.woff" Url="fonts/revicons.woff" />
+    <File Path="fonts\social-icons.eot" Url="fonts/social-icons.eot" />
+    <File Path="fonts\social-icons.svg" Url="fonts/social-icons.svg" />
+    <File Path="fonts\social-icons.ttf" Url="fonts/social-icons.ttf" />
+    <File Path="fonts\social-icons.woff" Url="fonts/social-icons.woff" />
+    <File Path="fonts\vjs.eot" Url="fonts/vjs.eot" />
+    <File Path="fonts\vjs.svg" Url="fonts/vjs.svg" />
+    <File Path="fonts\vjs.ttf" Url="fonts/vjs.ttf" />
+    <File Path="fonts\vjs.woff" Url="fonts/vjs.woff" />
+  </Module>
+</Elements>

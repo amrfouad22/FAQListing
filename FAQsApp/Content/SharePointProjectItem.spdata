@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="buttons\buttons.css" Target="Content\buttons\" Type="ElementFile" />
+    <ProjectItemFile Source="buttons\social-icons-codes.css" Target="Content\buttons\" Type="ElementFile" />
+    <ProjectItemFile Source="buttons\social-icons-embedded.css" Target="Content\buttons\" Type="ElementFile" />
+    <ProjectItemFile Source="buttons\social-icons-ie7-codes.css" Target="Content\buttons\" Type="ElementFile" />
+    <ProjectItemFile Source="buttons\social-icons-ie7.css" Target="Content\buttons\" Type="ElementFile" />
+    <ProjectItemFile Source="buttons\social-icons.css" Target="Content\buttons\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\elements-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\home-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\pages-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\pages.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\shop-2-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\shop-5-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\shop-6-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\shop-8-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="customizer\shop-pages-customizer.css" Target="Content\customizer\" Type="ElementFile" />
+    <ProjectItemFile Source="ie\ie.css" Target="Content\ie\" Type="ElementFile" />
+    <ProjectItemFile Source="ie\ie8.css" Target="Content\ie\" Type="ElementFile" />
+    <ProjectItemFile Source="animate.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.fancybox.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="responsive.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="settings.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="style.css" Target="Content\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
