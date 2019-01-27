@@ -3,7 +3,7 @@ Insight.Common.GetSiteUrl = function () {
     return window.location.toString().substr(0, window.location.toString().indexOf("/FAQsApp/"));
 }
 Insight.Common.GetItemsREST = function (listName, query, renderFunction) {
-    var RESTUrl =  Insight.Common.GetSiteUrl() +"/FAQsApp/_api/web/lists/GetByTitle('" + listName + "')/items?" + query;
+    var RESTUrl = Insight.Common.GetSiteUrl() + "/FAQsApp/_api/web/lists/GetByTitle('" + listName + "')/items?" + query;
     $.ajax(
                 {
                     url: RESTUrl,
@@ -40,7 +40,8 @@ Insight.Common.GetApplicationConfig=function(configName,callback){
 };
 
 Insight.Common.RenderFAQsCategories = function (listItems) {
-    var html = '<li><a href="#" data-filter="*" class="active">All</a></li>';
+    $("#title").html(FAQTitle);
+    var html = '<li><a href="#" data-filter="*" class="active">' + AllText + '</a></li>';
     var template = '<li><a href="#" data-filter=".{0}" class="">{1}</a></li>';
     for (var i = 0; i < listItems.length ; i++) {
 
@@ -75,8 +76,26 @@ Insight.Common.RenderFAQsItems = function (listItems) {
     isotopFilter();
 }
 
+Insight.Common.GetParameterByName=function(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 
+//get the configuration from the url
+var FAQTitle = Insight.Common.GetParameterByName('FAQTitle');
+var AllText = Insight.Common.GetParameterByName('AllText');
+var PageFilter = Insight.Common.GetParameterByName('PageFilter');
 //first render the FAQs categories
 Insight.Common.GetItemsREST("FAQCategories", '$select=Title,DisplayText', Insight.Common.RenderFAQsCategories);
-Insight.Common.GetItemsREST("FAQs", '$select=Title,FAQValue,FAQCategory/Title&$expand=FAQCategory/Title', Insight.Common.RenderFAQsItems);
+var order = "&$orderby=Order asc";
+var query = '$select=Title,FAQValue,FAQCategory/Title&$expand=FAQCategory/Title';
+if (PageFilter) {
+    query += "&$filter=Filter eq '" + PageFilter + "'";
+}
+Insight.Common.GetItemsREST("FAQs", query, Insight.Common.RenderFAQsItems);
 
