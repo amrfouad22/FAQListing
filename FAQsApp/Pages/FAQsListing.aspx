@@ -99,7 +99,7 @@
     <section id="main" class="no-padding">
         <header class="page-header">
             <div class="container">
-                <h1 class="title">FAQs</h1>
+                <h1 class="title" id="title"></h1>
             </div>	
         </header>
         <div class="container">

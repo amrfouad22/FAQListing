@@ -129,6 +129,7 @@
     <Content Include="Pages\FAQsListing.aspx" />
     <Content Include="Pages\FAQsListing\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Elements.xml" />

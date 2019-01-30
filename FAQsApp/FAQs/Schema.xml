@@ -4,15 +4,15 @@
     <ContentTypes>
       
       
-    <ContentType ID="0x010035f4714a4d714efcbf0255a27a37b44a" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{0bff2ba2-5359-4dd1-ac3e-dd59bee5748e}" Name="FAQValue" /><FieldRef ID="{b1713602-2d71-461f-9c61-084b4fa33120}" Name="FAQCategory" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+    <ContentType ID="0x010035f4714a4d714efcbf0255a27a37b44a" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{0bff2ba2-5359-4dd1-ac3e-dd59bee5748e}" Name="FAQValue" /><FieldRef ID="{b1713602-2d71-461f-9c61-084b4fa33120}" Name="FAQCategory" /><FieldRef ID="{206c2ee0-96e6-41e9-85ca-e4d248fe18c1}" Name="Order1" /><FieldRef ID="{1dfb7139-c65b-4194-b027-ddcb1f92d2e3}" Name="Filter" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
         <Folder TargetName="Item" />
       </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
     <Fields>
       
-    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
-      <Field Name="FAQValue" ID="{0bff2ba2-5359-4dd1-ac3e-dd59bee5748e}" DisplayName="FAQValue" Type="HTML" />
-      <Field Name="FAQCategory" ID="{b1713602-2d71-461f-9c61-084b4fa33120}" DisplayName="FAQCategory" Type="Lookup" List="Lists/FAQCategories" ShowField="Title"/>
-    </Fields>
+    
+      
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="FAQValue" ID="{0bff2ba2-5359-4dd1-ac3e-dd59bee5748e}" DisplayName="FAQValue" Type="HTML" /><Field Name="FAQCategory" ID="{b1713602-2d71-461f-9c61-084b4fa33120}" DisplayName="FAQCategory" Type="Lookup" List="Lists/FAQCategories" ShowField="Title" /><Field Name="Order1" ID="{206c2ee0-96e6-41e9-85ca-e4d248fe18c1}" DisplayName="Order" Type="Number" /><Field Name="Filter" ID="{1dfb7139-c65b-4194-b027-ddcb1f92d2e3}" DisplayName="Filter" Type="Text" /></Fields>
     <Views>
     <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
         <Toolbar Type="Standard" />
@@ -38,7 +38,7 @@
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
           
-        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="FAQValue" /><FieldRef Name="FAQCategory" /></ViewFields>
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="FAQValue" /><FieldRef Name="FAQCategory" /><FieldRef Name="Order1" /><FieldRef Name="Filter" /></ViewFields>
         <Query>
           <OrderBy>
             
