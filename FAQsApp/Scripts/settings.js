@@ -42,7 +42,7 @@ function onSettingsSaveFailure() {
     alert("Error Saving the settings..!");
 }
 function fixUrls() {
-    $("#img").attr("src", _spPageContextInfo.siteAbsoluteUrl + "/FAQsApp/Images/example.png");
-    $("#lstFAQCats").attr("href", _spPageContextInfo.siteAbsoluteUrl + "/FAQsApp/Lists/FAQCategories");
-    $("#lstFAQs").attr("href", _spPageContextInfo.siteAbsoluteUrl + "/FAQsApp/Lists/FAQs");
+    $("#img").attr("src", _spPageContextInfo.siteAbsoluteUrl + "/FAQsListing/Images/example.png");
+    $("#lstFAQCats").attr("href", _spPageContextInfo.siteAbsoluteUrl + "/FAQsListing/Lists/FAQCategories");
+    $("#lstFAQs").attr("href", _spPageContextInfo.siteAbsoluteUrl + "/FAQsListing/Lists/FAQs");
 }

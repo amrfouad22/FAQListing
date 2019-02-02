@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="cf1b1337-ec47-4b54-96f2-a453e39ed7f1" 
-        solutionId="cf1b1337-ec47-4b54-96f2-a453e39ed7f1" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="FAQsApp"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="cf1b1337-ec47-4b54-96f2-a453e39ed7f1" solutionId="cf1b1337-ec47-4b54-96f2-a453e39ed7f1" resetWebServer="false" sharePointProductVersion="15.0" name="FAQsListing" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-        <featureReference itemId="86cdb641-1e7f-4ab8-a850-877487f64039" />
+    <featureReference itemId="86cdb641-1e7f-4ab8-a850-877487f64039" />
   </features>
 </package>

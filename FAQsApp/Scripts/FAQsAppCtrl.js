@@ -3,7 +3,7 @@ Insight.Common.GetSiteUrl = function () {
     return window.location.toString().substr(0, window.location.toString().indexOf("/FAQsApp/"));
 }
 Insight.Common.GetItemsREST = function (listName, query, renderFunction) {
-    var RESTUrl = Insight.Common.GetSiteUrl() + "/FAQsApp/_api/web/lists/GetByTitle('" + listName + "')/items?" + query;
+    var RESTUrl = Insight.Common.GetSiteUrl() + "/FAQsListing/_api/web/lists/GetByTitle('" + listName + "')/items?" + query;
     $.ajax(
                 {
                     url: RESTUrl,
